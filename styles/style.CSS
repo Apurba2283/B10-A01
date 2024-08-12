@@ -79,7 +79,6 @@
 
 .section-description{
     font-size: 16px;
-
 }
 
 .secondary-bg{
@@ -123,9 +122,9 @@ main{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.skills{
+/* .skills{
     padding: 100px;
-}
+} */
 .skills-container{
     padding: 0px 200px 0px 120px;
     display: flex;
@@ -156,4 +155,38 @@ main{
     /* flex-direction: row-reverse; */
     /* padding: 0px 200px 0px 120px; */
     gap: 24px;
+}
+
+
+/* .footer{
+    padding: 200 15
+} */
+
+.footer{
+    padding: 0px 400px 200px 400px;
+    width:50%;
+}
+
+
+.footer-row{
+    background-image: url(../assets/handshake.jpg);
+    padding: 0px 100px 450px 100px;
+    max-width: 1140px;
+    max-height: 315px;
+    border-radius: 16px;
+    margin: 0px auto;
+}
+
+.footer-column{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dec{
+    color:#FFFFFF;
+}
+
+.sec-titles{
+    color: #FFFFFF;
 }
